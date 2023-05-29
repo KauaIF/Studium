@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Site Educacional</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* Estilos personalizados */
+    body {
+      font-family: Arial, sans-serif;
+    }
+    pre{
+      color: #fff;
+      font-size: 18px;
+
+    }
+    .section {
+      padding: 40px 0;
+    }
+    
+    .section h2 {
+      margin-top: 0;
+      font-size: 32px;
+      font-weight: bold;
+    }
+    
+    .section p {
+      font-size: 18px;
+      color: #333;
+      margin-bottom: 30px;
+    }
+    
+    .signature {
+      background-color: #f9f9f9;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    footer p {
+      font-size: 14px;
+      color: #888;
+      margin: 0;
+    }
+    
+    /* Imagens de fundo e cores */
+    #python {
+      background-image: url('https://i0.wp.com/www.cienciaedados.com/wp-content/uploads/2022/01/3-Estrategias-Para-Trabalhar-com-Grandes-Conjuntos-de-Dados-em-Python.jpg?fit=1200%2C600&ssl=1');
+      background-size: cover;
+      color: #ffffff;
+    }
+    #python .container p{
+        color:#fff
+    }
+    #introducao-python div{
+      display: none;
+    }
+    #introducao-python:hover{
+      cursor: pointer;
+    }
+    #javascript {
+      background-image: url('https://oracle-devrel.github.io/devo-image-repository/seo-thumbnails/JavaScript---Thumbnail-1200-x-630.jpg');
+      background-size: cover;
+      color: #fff;
+    }
+    #javascript .container p{
+        color:#fff
+    }
+    
+    #signature {
+      background-color: #f9f9f9;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header class="bg-light">
+    <div class="container">
+      <h1 class="text-center">🚀Studium</h1>
+    </div>
+  </header>
+  
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <div class="container">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="./python.html">Python</a></li>
+        <li class="nav-item"><a class="nav-link" href="#javascript">JavaScript</a></li>
+        <li class="nav-item"><a class="nav-link" href="#signature">Assinaturas</a></li>
+      </ul>
+    </div>
+  </nav>
+  
+  <div class="section" id="python">
+    <div class="container">
+      <h2>Aprendendo Python</h2>
+      <p>O Python é uma linguagem de programação versátil e fácil de aprender. É amplamente utilizado em áreas como desenvolvimento web, análise de dados e inteligência artificial. Nesta seção, você encontrará recursos para aprender Python, desde os conceitos básicos até tópicos mais avançados.</p>
+      
+      <div class="topic" id="introducao-python" onclick="topico('introducao-python')">
+        <h3>1. Introdução ao Python</h3>
+        <p>Nesta seção, você aprenderá sobre a sintaxe básica do Python, variáveis, tipos de dados, operadores e estruturas de controle de fluxo.</p>
+        <div>
+          <p>Python é uma linguagem de programação de alto nível, interpretada e de propósito
+geral. Ela é conhecida por sua simplicidade e legibilidade, o que a torna uma 
+escolha popular para iniciantes e programadores experientes. Nesta seção, você 
+aprenderá sobre a sintaxe básica do Python, variáveis, tipos de dados, operadores
+e estruturas de controle de fluxo.</p>
+
+<p>1.1. Sintaxe básica do Python:
+A sintaxe do Python é fácil de entender e ler. Não há necessidade de usar chaves 
+({}) ou ponto e vírgula (;) para marcar o fim das linhas. Em vez disso, a 
+indentação é usada para definir blocos de código. Aqui está um exemplo básico 
+de um programa Python:</p>
+
+<pre>```python
+print("Olá, mundo!")
+```</pre>
+
+<p>1.2. Variáveis:
+Uma variável é um nome que faz referência a um valor armazenado na memória do 
+computador. Em Python, você pode criar variáveis atribuindo um valor a elas. 
+O tipo da variável é inferido automaticamente com base no valor atribuído. 
+Veja um exemplo:</p>
+
+<pre>```python
+idade = 25
+nome = "João"
+```</pre>
+
+<p>1.3. Tipos de dados:
+Python possui vários tipos de dados embutidos, incluindo inteiros (int), números 
+de ponto flutuante (float), strings (str), booleanos (bool) e muito mais. Veja 
+alguns exemplos:</p>
+
+<pre>```python
+numero = 10  # tipo int
+pi = 3.14  # tipo float
+texto = "Olá"  # tipo str
+verdadeiro = True  # tipo bool
+```</pre>
+
+<p>1.4. Operadores:
+Python oferece uma variedade de operadores para executar cálculos e manipular 
+valores. Alguns exemplos comuns incluem operadores aritméticos (+, -, *, /), 
+operadores de comparação (==, !=, >, <), operadores lógicos (and, or, not) e 
+operadores de atribuição (=). Veja um exemplo:</p>
+
+<pre>```python
+x = 10
+y = 5
+soma = x + y
+print(soma)  # Output: 15
+```</pre>
+
+<p>1.5. Estruturas de controle de fluxo:
+As estruturas de controle de fluxo permitem que você controle o fluxo de 
+execução do seu programa. Python oferece condicionais (if, elif, else) e 
+loops (for, while) para isso. Veja um exemplo:</p>
+
+<pre>```python
+idade = 18
+if idade >= 18:
+    print("Você é maior de idade.")
+else:
+    print("Você é menor de idade.")
+```</pre>
+
+<p>Além disso, você também pode usar loops para iterar sobre uma sequência de 
+elementos ou executar um bloco de código várias vezes. Aqui está um exemplo de 
+um loop for:</p>
+
+<pre>```python
+for i in range(1, 5):
+    print(i)
+```</pre>
+
+<p>Isso imprimirá os números de 1 a 4.</p>
+
+<p>Conclusão:</p>
+<p>Esta foi apenas uma introdução básica ao Python, abordando sua sintaxe, 
+variáveis, tipos de dados, operadores e estruturas de controle de fluxo. 
+Python é uma linguagem poderosa e versátil, com muitos recursos avançados que 
+você pode explorar. À medida que você ganha mais experiência, poderá usar Python 
+para desenvolver aplicativos web, análise de dados, inteligência artificial e 
+muito mais. Continue praticando e explorando os recursos do Python para aprimorar 
+suas habilidades de programação.
+          </p>
+        </div>
+      </div>
+      
+      <div class="topic" id="funcoes-modulos-python">
+        <h3>2. Funções e Módulos</h3>
+        <p>Aprenda como criar funções personalizadas, usar funções embutidas e importar módulos para estender as funcionalidades do Python.</p>
+      </div>
+      
+      <div class="topic" id="listas-dicionarios-python">
+        <h3>3. Trabalhando com Listas e Dicionários</h3>
+        <p>Explore as estruturas de dados fundamentais do Python, como listas e dicionários, e aprenda a manipulá-las efetivamente.</p>
+      </div>
+      
+      <div class="topic" id="orientacao-objetos-python">
+        <h3>4. Orientação a Objetos em Python</h3>
+        <p>Entenda os conceitos de programação orientada a objetos e como aplicá-los em Python para criar classes, objetos e herança.</p>
+      </div>
+      
+      <div class="topic" id="manipulacao-arquivos-python">
+        <h3>5. Manipulação de Arquivos</h3>
+        <p>Aprenda a ler e escrever em arquivos utilizando Python, incluindo leitura de arquivos CSV, JSON e manipulação de diretórios.</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="section" id="signature">
+    <div class="container">
+      <h2>Assinaturas</h2>
+      <p>Aqui você pode encontrar informações sobre as opções de assinatura disponíveis.</p>
+      <!-- Inclua aqui informações sobre as assinaturas -->
+    </div>
+  </div>
+  
+  <footer class="signature">
+    <div class="container">
+      <p>© 2023 Site Educacional. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script>
+  function topico(nome){
+    document.getElementById(nome).children[2].style.display = "block";
+  }
+  </script>
+</body>
+</html>
